@@ -76,7 +76,8 @@
 
 (defn ^:export main []
   (render)
-  (.addEventListener js/window "resize" resize-handler))
+  ;(.addEventListener js/window "resize" resize-handler)
+)
 
 
 (defn on-js-reload []
