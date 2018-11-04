@@ -51,10 +51,13 @@
                    :left "50%"}]
   [:.logo {:margin "auto"
            :width "400px"
+           :max-width "80%"
            :padding-top "5%"}
-   [:img {:width "400px"}]]
+   [:img {:width "400px"
+          :max-width "80%"}]]
   [:.content {:margin "auto"
               :width "750px"
+			  :max-width "90%"
               :padding-top "10%"}
     [:.github {:float "right"
                :opacity 0
